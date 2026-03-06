@@ -1,0 +1,27 @@
+{
+  "name": "orgclone",
+  "version": "0.0.0",
+  "description": "Clone all your github repos at once",
+  "main": "index.js",
+  "bin": {
+    "orgclone": "orgclone.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "format": "npx -y prettier -w ."
+  },
+  "keywords": [
+    "github",
+    "org",
+    "clone"
+  ],
+  "author": "David Konsumer @konsumer",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "msw": "^2.12.10"
+  }
+}
